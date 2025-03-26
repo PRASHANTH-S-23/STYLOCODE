@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLOCODE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-padding-top: 1rem;
+            scroll-behavior: smooth;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5e9e4;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+        .background-image {
+            background-image: url('Images/HOME_PAGE_IMAGE.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full height */
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen">
+    <div class="relative bg-white rounded-lg shadow-lg overflow-hidden w-full h-full">
+        <div class="background-image relative w-full h-full">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+            <div class="absolute top-0 left-0 p-6 flex justify-between items-center w-full">
+                <div class="text-black font-bold text-2xl">STYLO<span style="color: #33b4f0;">CODE</span></div>
+                <div class="flex space-x-4">
+                    <a href="login.html" class="bg-white-400 font-bold text-black px-4 py-2 rounded-full hover:bg-blue-500">LOGIN</a>
+                    <a href="signup.html" class="bg-black-400 font-bold text-white px-4 py-2 rounded-full hover:bg-blue-500">SIGN UP</a>
+                </div>
+            </div>
+            <div class="absolute bottom-16 left-0 p-6 text-white">
+                <h1 class="text-4xl font-bold">Welcome to STYLO<span style="color: #33b4f0;">CODE</span></h1>
+                <p class="mt-2 max-w-md">
+                    Explore a vast collection of stunning website designs.<br>
+                    Discover modern layouts, sleek interfaces, and interactive elements.<br>
+                    Find the perfect style that matches your vision and creativity.<br>
+                    Stay ahead with the latest trends and AI-powered innovations.<br>
+                    Your dream design is just a click away!
+                </p>
+            </div>
+            <div class="absolute bottom-0 left-0 p-6 flex space-x-4">
+                <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
